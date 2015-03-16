@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cat Clicker v1</title>
+</head>
+<body>
+  <h1>Cat Clicker v1</h1>
+  <h2>Just click on the cat to increment the counter.</h2>
+  <div>COUNTER: <input type="text" id="counter" value="0"</input></div>
+  <div>&nbsp;</div>
+  <div><img onclick="catClick()" src="http://placekitten.com/g/500/400"></div>
+  <script type="text/javascript">
+    var i = 0;
+    function catClick() {
+      i++;
+      document.getElementById('counter').value = i;
+  }
+  </script>
+</body>
+</html>
